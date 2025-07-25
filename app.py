@@ -4,7 +4,7 @@ import pandas as pd
 # Carregar os dados
 @st.cache_data
 def carregar_dados():
-    return pd.read_csv("anonimizados.csv")
+    return pd.read_csv("anonimizados (1).csv")
 
 df = carregar_dados()
 
