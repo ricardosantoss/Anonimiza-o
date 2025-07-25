@@ -1,6 +1,11 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(
+    page_title="Comparador de Petições",
+    layout="wide",
+)
+
 # Carregar os dados
 @st.cache_data
 def carregar_dados():
